@@ -14,15 +14,11 @@
 
 </head>
 <body>
-<div class="font-sans text-xl text-gray-600 leading-normal antialiased border-t-6 border-primary">
-    <div class="bg-secondary text-white font-semibold hover:underline py-3 px-6">
-        <div class="wrapper text-center">
-            <a class="focus:underline focus:bg-transparent" href="https://eventy.io" target="_blank" rel="noopener">
-                Check out my latest project, Eventy. The event platform for the rest of us!
-            </a>
-        </div>
-    </div>
 
+<div class="font-sans text-xl text-gray-600 leading-normal antialiased border-t-6 border-primary">
+
+
+{{--    <livewire:sections.alert-box :link="'dddddddd'" :text="'zz'"/>--}}
     <livewire:app.header/>
 
     {{ $slot }}
