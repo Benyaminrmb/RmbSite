@@ -10,7 +10,7 @@ class TinyAbout extends Component
 
     public function mount()
     {
-        $this->greeting = "Hi, I'm Benyamin";
+        $this->greeting = __('about.greeting');
     }
     public function render()
     {

@@ -15,13 +15,16 @@
 </head>
 <body>
 
-<div class="font-sans text-xl text-gray-600 leading-normal antialiased border-t-6 border-primary">
-
-
-{{--    <livewire:sections.alert-box :link="'dddddddd'" :text="'zz'"/>--}}
+<div class="flex flex-wrap w-full">
     <livewire:app.header/>
 
-    {{ $slot }}
+
+        {{--    <livewire:sections.alert-box :link="'dddddddd'" :text="'zz'"/>--}}
+
+        <livewire:sections.tiny-about/>
+
+        {{ $slot }}
+
 </div>
 </body>
 </html>
