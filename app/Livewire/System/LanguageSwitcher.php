@@ -2,6 +2,7 @@
 
 namespace App\Livewire\System;
 
+use App\Livewire\HomePage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
@@ -11,9 +12,9 @@ use Livewire\Component;
 
 class LanguageSwitcher extends Component
 {
-    public $selectedLanguage = '';
     public string $route = '';
     public array $links = [];
+    public   $selectedLanguage= [];
 
     public function mount()
     {

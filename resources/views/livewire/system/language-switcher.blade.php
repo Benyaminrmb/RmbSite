@@ -17,7 +17,7 @@
             <ul class="menu menu-sm gap-1">
                 @foreach($links as $locale=>$link)
                     <li>
-                        <a href="{{ $link }}" wire:navigate.hover wire:navigate>
+                        <a href="{{ $link }}" wire:navigate.hover wire:navigate x-on:click="langChanged('{{$locale}}')">
                             <span
                                 class="badge badge-sm badge-outline !pl-1.5 !pr-1 pt-px font-mono !text-[.6rem] font-bold tracking-widest opacity-50">
                                 {{ strtoupper($locale) }}
@@ -35,3 +35,8 @@
     </div>
 
 </div>
+<script>
+    function langChanged(newLang) {
+        document.documentElement.setAttribute('lang', newLang);
+    }
+</script>
