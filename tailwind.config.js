@@ -2,11 +2,28 @@
 export default {
     content: [
         'lang/**/*.{php}',
+        'config/*.{php}',
         'resources/**/*.{blade.php,js}',
         'resources/**/**/*.{blade.php,js}',
         'resources/**/**/**/*.{blade.php,js}',
         'resources/**/**/**/**/*.{blade.php,js}',
         'resources/**/**/**/**/**/*.{blade.php,js}',
+    ],
+    safelist: [
+        'text-3xl',
+        'font-bold',
+        'mt-1',
+        'mb-2',
+        'border-b',
+        'text-2xl',
+        'my-1',
+        'text-xl',
+        'py-2',
+        'list-disc',
+        'list-inside',
+        'pl-8',
+        'list-decimal',
+        'pre',
     ],
     theme: {
         extend: {},
