@@ -51,3 +51,14 @@
 .navbar-link {
     position: relative;
 }
+.dir-rtl{
+    direction: rtl;
+}
+@font-face {
+    font-family: Yekan; /* Specify the font family name */
+    src: url('./../fonts/Yekan-Medium.woff') format('woff'); /* Define the font source */
+}
+
+[lang='fa'] {
+    font-family: Yekan, sans-serif; /* Use Yekan as primary, fallback to sans-serif */
+}
