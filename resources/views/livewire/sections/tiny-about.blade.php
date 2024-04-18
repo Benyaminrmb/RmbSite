@@ -25,7 +25,7 @@
                             </h2>
                         </div>
                         <div
-                            class="content w-full hide-scrollbar clamp mb-2 overflow-hidden leading-loose text-white md:mb-8 xl:mr-0 line-clamp-6">
+                            class="content rtl:text-right w-full hide-scrollbar clamp mb-2 overflow-hidden leading-loose text-white md:mb-8 xl:mr-0 line-clamp-6">
                            {!! __('about.tiny_about') !!}
 
 
@@ -63,7 +63,7 @@
         </div>
         <div class="text-center">
             <img
-                class="thumbnail pointer-events-none absolute top-0 mb-8 mt-[-200px] hidden -translate-y-1/4 rounded-lg md:right-0 md:my-0 md:h-5/6 xl:inline-block scale-125 duration-500 group-hover:scale-[126%] md:translate-x-2/3 md:translate-y-0 xl:translate-x-1/2"
+                class="thumbnail pointer-events-none absolute top-0 mb-8 mt-[-200px] hidden -translate-y-1/4 rounded-lg rtl:md:left-0 ltr:md:right-0 md:my-0 md:h-5/6 xl:inline-block  duration-500 group-hover:scale-[110%] rtl:xl:-translate-x-1/2 rtl:md:-translate-x-2/3 ltr:md:translate-x-2/3 md:translate-y-0 ltr:xl:translate-x-1/2"
                 src="https://ik.imagekit.io/laracasts/series/thumbnails/svg/write-code-thats-easy-to-maintain.svg"
                 alt="Write Code That's Easy to Maintain" style="transition: transform 0.3s ease-in-out 0s;">
         </div>

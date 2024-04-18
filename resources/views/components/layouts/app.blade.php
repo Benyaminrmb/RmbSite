@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}" >
+<html lang="{{ app()->getLocale() }}" dir="{{app()->getLocale() === 'fa'?'rtl':'ltr'}}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +17,10 @@
 
 <div class="flex flex-wrap w-full @if(app()->getLocale()=='fa') dir-rtl @endif">
     <livewire:app.header/>
-    <div class="bg-red-500 rtl:bg-blue-700">
-        awd
-    </div>
 
     <div class="grid grid-cols-12 justify-center w-full">
         <div class="col-span-8 col-start-3 mt-4">
                 <livewire:sections.tiny-about/>
-
         </div>
     </div>
 

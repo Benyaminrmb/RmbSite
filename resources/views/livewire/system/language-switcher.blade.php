@@ -38,5 +38,6 @@
 <script>
     function langChanged(newLang) {
         document.documentElement.setAttribute('lang', newLang);
+        document.documentElement.setAttribute('dir', newLang==='fa'?'rtl':'ltr');
     }
 </script>
