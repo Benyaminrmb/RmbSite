@@ -11,7 +11,8 @@
         "laravel/reverb": "@beta",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
-        "predis/predis": "^2.2"
+        "predis/predis": "^2.2",
+        "sinnbeck/markdom": "^2.1"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^3.0",

@@ -1,6 +1,6 @@
 <div>
     <div title="Change Language" class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn btn-ghost" aria-label="Language">
+        <div tabindex="0" role="button" class="btn btn-sm btn-primary" aria-label="Language">
             <svg class="h-5 w-5 fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                  viewBox="0 0 512 512">
                 <path d="M363,176,246,464h47.24l24.49-58h90.54l24.49,58H480ZM336.31,362,363,279.85,389.69,362Z"></path>
