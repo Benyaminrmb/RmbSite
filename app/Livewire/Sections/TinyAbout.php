@@ -16,4 +16,13 @@ class TinyAbout extends Component
     {
         return view('livewire.sections.tiny-about');
     }
+
+    public function downloadCv($lang): \Symfony\Component\HttpFoundation\BinaryFileResponse
+    {
+        if($lang==='fa')
+            $file="Benyamin's resume.pdf";
+        else
+            $file="Benyamin's resume-en.pdf";
+        return response()->download(public_path("cvs/$file"));
+    }
 }

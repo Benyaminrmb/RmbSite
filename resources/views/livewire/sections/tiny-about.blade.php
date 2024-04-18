@@ -33,7 +33,7 @@
                     </div>
                     <div class="flex flex-wrap w-full self-end">
                         <div class="flex gap-2">
-                            <button class="btn capitalize btn-primary">
+                            <button wire:click="downloadCv('fa')" class="btn capitalize btn-primary">
                                 <svg class="size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="none" stroke="currentColor" stroke-linecap="round"
                                           stroke-linejoin="round" stroke-width="32"
@@ -44,7 +44,7 @@
                                 </svg>
                                 {{ __('global.cv.download_fa') }}
                             </button>
-                            <button class="btn capitalize btn-primary">
+                            <button wire:click="downloadCv('en')" class="btn capitalize btn-primary">
                                 <svg class="size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="none" stroke="currentColor" stroke-linecap="round"
                                           stroke-linejoin="round" stroke-width="32"
