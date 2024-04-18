@@ -24,6 +24,11 @@ export default {
         'pl-8',
         'list-decimal',
         'pre',
+        'p-4',
+        'my-4',
+        'border-s-4',
+        'bg-gray-800',
+        'border-gray-500',
     ],
     theme: {
         extend: {},
