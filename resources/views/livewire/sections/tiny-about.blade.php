@@ -64,7 +64,7 @@
         <div class="text-center">
             <img
                 class="thumbnail pointer-events-none absolute top-0 mb-8 mt-[-200px] hidden -translate-y-1/4 rounded-lg rtl:md:left-0 ltr:md:right-0 md:my-0 md:h-5/6 xl:inline-block  duration-500 group-hover:scale-[110%] rtl:xl:-translate-x-1/2 rtl:md:-translate-x-2/3 ltr:md:translate-x-2/3 md:translate-y-0 ltr:xl:translate-x-1/2"
-                src="https://ik.imagekit.io/laracasts/series/thumbnails/svg/write-code-thats-easy-to-maintain.svg"
+                src="{{ asset('images/svg/write-code-thats-easy-to-maintain.svg') }}"
                 alt="Write Code That's Easy to Maintain" style="transition: transform 0.3s ease-in-out 0s;">
         </div>
     </div>
