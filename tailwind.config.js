@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        'lang/**/*.{php}',
-        'config/*.{php}',
+        'lang/**/*.php',
+        'config/*.php',
         'resources/**/*.{blade.php,js}',
         'resources/**/**/*.{blade.php,js}',
         'resources/**/**/**/*.{blade.php,js}',
@@ -71,6 +71,14 @@ export default {
             },
         ],
     },
-    plugins: [require("daisyui")],
+    plugins: [require("daisyui"),({addComponents}) => {
+        addComponents({
+            '.kanit-bold': {
+                fontFamily: '"Kanit", sans-serif',
+                fontWeight:700,
+                fontStyle:'normal'
+            },
+        })
+    },],
 }
 
